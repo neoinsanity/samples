@@ -92,3 +92,12 @@ class NamedValueAccessible:
             return method(self)
         if attr:
             return attr
+
+class Transaction(NamedValueAccessible):
+    def logColumns(self):
+        return 'datetime requestId responseSize duration'.split()
+    def logEntry(self):
+        ''' Returns a list of values for the transaction
+    log, consistent with logColumns(). '''
+        return [self.valueForKey(column)
+                for column in self.logColumns()]
