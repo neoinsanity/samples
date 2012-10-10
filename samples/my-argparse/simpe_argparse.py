@@ -1,6 +1,5 @@
 import argparse
 import sys
-import time
 
 
 __author__ = 'neoinsanity'
