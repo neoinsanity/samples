@@ -5,7 +5,9 @@
 # Oct 5, 2012
 ##########
 
-This is some quick scripts put together to generate a list of zipcodes. The zipcode database file is zip_code_database.csv, which was downloaded from http://www.unitedstateszipcodes.org/zip-code-database/.
+This is some quick scripts put together to generate a list of zipcodes. The
+zipcode database file is zip_code_database.csv, which was downloaded from
+http://www.unitedstateszipcodes.org/zip-code-database/.
 
 The sample_zip.csv was generated: head zip_code_database.csv > sample_zip.csv
 
