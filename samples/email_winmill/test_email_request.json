@@ -1,0 +1,1 @@
+{"type":"email_request","payload" : {"msg" : "Hi, this is a message that has been delivered through email service as a test.\nNeeded multi recipient test.\n\n share and enjoy", "subject" : "A message from email send service.", "sender" : "raul@filepicker.io","to" : ["raul@filepicker.io"]}}

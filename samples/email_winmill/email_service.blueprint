@@ -1,0 +1,29 @@
+{"blueprints":[
+{
+    "service":"email_windmill",
+    "service_profile":{
+        "type":"lib_path",
+        "path":"email_windmill.py"
+        },
+    "args":"-f test_data/inputs/test_ventilator_default_behavior._input --output_sock_url tcp://*:6677 --output_connect"
+},
+{
+    "service":"email_windmill",
+    "service_profile":{
+        "type":"lib_path",
+        "path":"email_windmill.py"
+        },
+    "args":"-f test_data/inputs/test_ventilator_default_behavior._input --output_sock_url tcp://*:6677 --output_connect"
+},
+{
+    "service":"email_windmill",
+    "service_profile":{
+        "type":"lib_path",
+        "path":"email_windmill.py"
+        },
+    "args":"-f test_data/inputs/test_ventilator_default_behavior._input --output_sock_url tcp://*:6677 --output_connect"
+},
+{
+    "service":"ventilator_windmill", "args":"--output_sock_url tcp://*"
+},
+]}
